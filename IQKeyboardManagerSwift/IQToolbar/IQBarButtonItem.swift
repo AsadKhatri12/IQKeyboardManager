@@ -49,8 +49,8 @@ import UIKit
         }
 
         setTitlePositionAdjustment(UIOffset(), for: .default)
-        setBackgroundVerticalPositionAdjustment(0, for: .default)
-        setBackButtonBackgroundVerticalPositionAdjustment(0, for: .default)
+        setBackgroundVerticalPositionAdjustment(1, for: .default)
+        setBackButtonBackgroundVerticalPositionAdjustment(1, for: .default)
     }
 
     @objc override open var tintColor: UIColor? {
