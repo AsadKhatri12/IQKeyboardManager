@@ -59,10 +59,10 @@ Codeless drop-in universal library allows to prevent issues of keyboard sliding 
                 if let notification = keyboardShowNotification {
                     keyboardWillShow(notification)
                 }
-                showLog("En")
+                showLog("Enabled")
             } else if !enable, oldValue {   //If not disable, desable it.
                 keyboardWillHide(nil)
-                showLog("Di")
+                showLog("Disabled")
             }
         }
     }
