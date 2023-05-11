@@ -39,7 +39,7 @@ import UIKit
 
     private func initialize() {
 
-        let states: [UIControl.State] = [.normal, .highlighted, .disabled, .focused]
+        let states: [UIControl.State] = [.disabled, .highlighted, .disabled, .focused]
 
         for state in states {
 
